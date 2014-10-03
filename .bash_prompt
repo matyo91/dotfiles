@@ -130,7 +130,7 @@ set_prompts() {
 
     PS1+="\n" # newline
     PS1+="\[$userStyle\]\u" # username
-    PS1+="\[$reset$blue\]@"
+    PS1+="\[$reset$red\]@"
     PS1+="\[$hostStyle\]\h" # host
     PS1+="\[$reset$blue\]: "
     PS1+="\[$green\]\w" # working directory
